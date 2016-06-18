@@ -1,14 +1,15 @@
-# MageScotch Box
+# MageScotch Box - PHP 5 Edition
 ## Get Started
 - Download and Install [Vagrant][3]
 - Download and Install [VirtualBox][4]
-- Clone the MageScotch Box [GitHub Repository](https://github.com/joshuaswarren/magescotch)
+- Clone the MageScotch Box [GitHub Repository](https://github.com/joshuaswarren/magescotch5)
 - Run `vagrant up`
 - Access Magento 1 at [http://192.168.33.10/magento/](http://192.168.33.10/magento/)
 - Access Magento 2 at [http://192.168.33.10/magento2/](http://192.168.33.10/magento2/)
 - Access your own project at [http://192.168.33.10/dev/](http://192.168.33.10/dev/)
 - Use your favorite IDE to edit the files in public/magento, public/magento2 and public/dev
 - Access Mailcatcher at [http://192.168.33.10:1080/](http://192.168.33.10:1080/)
+- Access phpMyAdmin at [http://192.168.33.10/phpmyadmin/(http://192.168.33.10/phpmyadmin/)
 
 ## Credentials
 ### Databases
@@ -41,7 +42,8 @@ Databases: magento, magento2, dev
 ### Magento Stuff
 - Magento 1 ([http://192.168.33.10/magento/](http://192.168.33.10/magento/)) - files in public/magento
 - Magento 2 ([http://192.168.33.10/magento2/](http://192.168.33.10/magento2/)) - files in public/magento2
-- Project directory - [http://192.168.33.10/dev/](http://192.168.33.10/dev/) and public/dev
+- Project directory - [http://192.168.33.10/dev/](http://192.168.33.10/dev/) and public/dev - this directory is empty until you add your project to it there.
+- Magento's ECG Codesniffs Installed. Check code quality with: phpcs --standard=Ecg <path to your code>
 
 ### Database Stuff
 - MySQL

@@ -10,6 +10,6 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "./", "/var/www", type:"nfs", mount_options:["nolock,vers=3,udp,noatime,actimeo=1"] 
     config.vm.provider "virtualbox" do |v|
   	v.memory = 4096
-  	v.cpus = 4
+  	v.cpus = 2
     end
 end
