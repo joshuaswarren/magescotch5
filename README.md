@@ -1,4 +1,5 @@
 # MageScotch Box - PHP 5 Edition
+## Deprecated - It's 2017. Please use PHP 7 and MageScotch - http://github.com/joshuaswarren/magescotch/
 ## Get Started
 - Download and Install [Vagrant][3]
 - Download and Install [VirtualBox][4]
